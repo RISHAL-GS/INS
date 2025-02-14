@@ -1,7 +1,7 @@
 # INS
 This repository contains implementations of various ciphers and cryptographic algorithms as part of the Information and Network Security Lab. The projects are written in Python, showcasing different encryption and decryption techniques.
 
-🔗 GitHub Repository: Information_and_Network_Security_Lab_Programs
+🔗 GitHub Repository: INS
 
 📋 Table of Contents
 🔧 Tech Stack
