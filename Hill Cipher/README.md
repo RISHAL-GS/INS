@@ -43,9 +43,9 @@ python hill_cipher.py
 
 The program will prompt for:
 
-- Plaintext message
-- Matrix size (n × n)
-- Key matrix values (entered row-wise)
+-Plaintext message
+-Matrix size (n × n)
+-Key matrix values (entered row-wise)
 
 ## 📝 Example Usage
 🔐 Encryption
