@@ -28,3 +28,43 @@ Ensure you have **Python 3.8 or later** installed.
 ```sh
 git clone https://github.com/YourUsername/INS.git
 cd "Feistel Cipher"
+```
+
+##💻 How to Run
+Run the script using:
+
+sh
+Copy
+Edit
+python feistel_cipher.py  
+
+#The program will prompt for:
+
+Plaintext to encrypt
+Number of rounds
+Key for encryption
+📝 Example Usage
+Encryption
+vbnet
+Copy
+Edit
+Enter text to encrypt: HELLO
+Enter number of rounds: 4
+Enter key: SECRET
+Ciphertext: 9f3a2c...
+
+##Decryption
+vbnet
+Copy
+Edit
+-Enter text to decrypt: 9f3a2c...
+-Enter number of rounds: 4
+-Enter key: SECRET
+-Decrypted text: HELLO
+📂 File Structure
+nginx
+Copy
+Edit
+Feistel Cipher/
+│── feistel_cipher.py   # Python script for encryption & decryption
+│── README.md           # This file
