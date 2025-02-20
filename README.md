@@ -57,3 +57,4 @@ python <cipher_script>.py
 - 🔄 **Caesar Cipher**: A shift-based substitution cipher where each letter in the plaintext is shifted a fixed number of places. [Jump to Caesar Cipher](Caesar%20Cipher/)**
 - 🔢 **Hill Cipher**: A polygraphic substitution cipher using matrix multiplication for encryption and decryption. [Jump to Hill Cipher](Hill%20Cipher/)
 - 🔠 **MonoAlphabetic Cipher**: A substitution cipher where each letter in the plaintext is mapped to a unique letter in the ciphertext. [Jump to MonoAlphabetic Cipher](MonoAlphabetic/)
+- 🎯 **Vigenère Cipher**: A polyalphabetic cipher that uses a keyword to shift letters. [Jump to Vigenère Cipher](Vigenère%20cipher/)
