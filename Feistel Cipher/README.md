@@ -48,21 +48,21 @@ The program will prompt for:
 -Key for encryption
 
 ### 📝 Example Usage
-#🔐 Encryption
+🔐 Encryption
 ``` sh
 Enter text to encrypt: HELLO
 Enter number of rounds: 4
 Enter key: SECRET
 Ciphertext: 9f3a2c...
 ```
-#🔓 Decryption
+🔓 Decryption
 ``` sh
 Enter text to decrypt: 9f3a2c...
 Enter number of rounds: 4
 Enter key: SECRET
 Decrypted text: HELLO
 ```
-#📂 File Structure
+📂 File Structure
 ```sh 
 Feistel Cipher/
 │── feistel_cipher.py   # Python script for encryption & decryption
