@@ -34,7 +34,9 @@ Ensure you have **Python 3.8 or later** installed.
 ```sh
 git clone https://github.com/YourUsername/INS.git
 cd "Feistel Cipher"
-💻 How to Run
+```
+
+###  💻 How to Run
 Run the script using:
 
 sh
