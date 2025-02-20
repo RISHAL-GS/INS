@@ -50,8 +50,8 @@ The program will prompt for:
 ## 📝 Example Usage
 🔐 Encryption
 
-- Enter plaintext: HELLO
-- Enter the matrix size: 2
+-Enter plaintext: HELLO
+-Enter the matrix size: 2
 -Enter the key matrix row-wise:
 3 3
 2 5
@@ -59,7 +59,7 @@ The program will prompt for:
 
 ## 🚫 Error Handling (Invalid Matrix)
 
-- Enter plaintext: TEST
+-Enter plaintext: TEST
 -Enter the matrix size: 2
 -Enter the key matrix row-wise:
 2 4
