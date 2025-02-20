@@ -52,7 +52,9 @@ python <cipher_script>.py
 4. Follow the **Running Locally** steps for Python programs.
 
 ## 🔑 Ciphers Included
-- 🔐 **Playfair Cipher**: Encryption and decryption functionalities for a 5x5 matrix cipher. [Jump to Playfair Cipher](#)
-- 🔄 **Caesar Cipher**: Shift-based substitution cipher. [Jump to Caesar Cipher](#)
-- 🔢 **Hill Cipher**: Matrix multiplication-based cipher. [Jump to Hill Cipher](#)
-- 🔠 **MonoAlphabetic Cipher**: Substitution map-based cipher. [Jump to MonoAlphabetic Cipher](#)
+- 🔐 **Playfair Cipher**: Encryption and decryption functionalities for a 5x5 matrix cipher. [Jump to Playfair Cipher](Play%20Fair/)
+- 🔄 **Caesar Cipher**: A shift-based substitution cipher where each letter in the plaintext is shifted a fixed number of places. [Jump to Caesar Cipher](Caesar%20Cipher/)
+- 🔢 **Hill Cipher**: A polygraphic substitution cipher using matrix multiplication for encryption and decryption. [Jump to Hill Cipher](Hill%20Cipher/)
+- 🔠 **MonoAlphabetic Cipher**: A substitution cipher where each letter in the plaintext is mapped to a unique letter in the ciphertext. [Jump to MonoAlphabetic Cipher](MonoAlphabetic/)
+- 🔥 **Feistel Cipher**: A symmetric structure used in block ciphers. [Jump to Feistel Cipher](Feistel%20Cipher/)
+- 🎯 **Vigenère Cipher**: A polyalphabetic cipher that uses a keyword to shift letters. [Jump to Vigenère Cipher](Vigenère%20cipher/)
