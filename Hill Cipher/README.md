@@ -39,7 +39,7 @@ cd Hil💻 How to Run
 Run the script using:
 ``` sh
 python hill_cipher.py
-3```
+```
 
 The program will prompt for:
 
@@ -67,7 +67,6 @@ Ciphertext: ZEBB
 ```
 📂 File Structure
 -plaintext
-`` sh
 Hill-Cipher/
 │── hill_cipher.py   # Python script for encryption
 │── README.md        # This file
