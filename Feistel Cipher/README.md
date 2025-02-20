@@ -38,11 +38,9 @@ cd "Feistel Cipher"
 
 ###  💻 How to Run
 Run the script using:
-
-sh
-Copy
-Edit
+```sh
 python feistel_cipher.py
+```
 The program will prompt for:
 
 Plaintext to encrypt
