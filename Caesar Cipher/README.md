@@ -57,6 +57,6 @@ Decrypted text: HELLO
 bash
 Copy
 Edit
-Vigenère Cipher/
-│── vigenere_cipher.py   # Python script for encryption & decryption
-│── README.md            # This file
+- Vigenère Cipher/
+- │── vigenere_cipher.py   # Python script for encryption & decryption
+1- ── README.md            # This file
