@@ -42,11 +42,11 @@ Encryption
 vbnet
 Copy
 Edit
-Enter text to encrypt: HELLO
-Enter keyword: KEY
-Ciphertext: RIJVS
-Decryption
-vbnet
+- Enter text to encrypt: HELLO
+- Enter keyword: KEY
+- Ciphertext: RIJVS
+- Decryption
+- vbnet
 Copy
 Edit
 Enter text to decrypt: RIJVS
