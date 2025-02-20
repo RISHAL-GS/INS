@@ -51,8 +51,9 @@ python <cipher_script>.py
 3. Once the Codespace is ready, open the terminal and navigate to the desired cipher folder.
 4. Follow the **Running Locally** steps for Python programs.
 
+   
 ## 🔑 Ciphers Included
-- 🔐 **Playfair Cipher**: Encryption and decryption functionalities for a 5x5 matrix cipher. [Jump to Playfair Cipher](#)
-- 🔄 **Caesar Cipher**: Shift-based substitution cipher. [Jump to Caesar Cipher](#caesar-cipher)
-- 🔢 **Hill Cipher**: Matrix multiplication-based cipher. [Jump to Hill Cipher](#)
-- 🔠 **MonoAlphabetic Cipher**: Substitution map-based cipher. [Jump to MonoAlphabetic Cipher](#)
+- 🔐 **Playfair Cipher**: Encryption and decryption functionalities for a 5x5 matrix cipher. [Jump to Playfair Cipher](#playfair-cipher)
+- 🔄 **Caesar Cipher**: A shift-based substitution cipher where each letter in the plaintext is shifted a fixed number of places. [Jump to Caesar Cipher](#caesar-cipher)
+- 🔢 **Hill Cipher**: A polygraphic substitution cipher using matrix multiplication for encryption and decryption. [Jump to Hill Cipher](#hill-cipher)
+- 🔠 **MonoAlphabetic Cipher**: A substitution cipher where each letter in the plaintext is mapped to a unique letter in the ciphertext. [Jump to MonoAlphabetic Cipher](#monoalphabetic-cipher)
