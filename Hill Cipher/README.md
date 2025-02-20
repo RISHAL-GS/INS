@@ -50,28 +50,30 @@ The program will prompt for:
 ###📝 Example Usage
 🔐 Encryption
 
--Enter plaintext: HELLO
--Enter the matrix size: 2
+- Enter plaintext: HELLO
+- Enter the matrix size: 2
 -Enter the key matrix row-wise:
 3 3
 2 5
 -Ciphertext: ZEBB  
 
 ## 🚫 Error Handling (Invalid Matrix)
-`` sh
--Enter plaintext: TEST
+
+- Enter plaintext: TEST
 -Enter the matrix size: 2
 -Enter the key matrix row-wise:
 2 4
 6 8
 -Invalid input: Key matrix is not invertible modulo 26. Choose a different matrix.
-```
+
 📂 File Structure
+``` sh
 -plaintext
 Hill-Cipher/
 │── hill_cipher.py   # Python script for encryption
 │── README.md        # This file
 ```
+
 📜 References
 - Hill, Lester S. "Cryptography in an Algebraic Alphabet." The American Mathematical Monthly, 1929.
 Wikipedia - Hill Cipher
