@@ -43,39 +43,32 @@ python feistel_cipher.py
 ```
 The program will prompt for:
 
-Plaintext to encrypt
-Number of rounds
-Key for encryption
-📝 Example Usage
-🔐 Encryption
-sh
-Copy
-Edit
+-Plaintext to encrypt
+-Number of rounds
+-Key for encryption
+
+### 📝 Example Usage
+#🔐 Encryption
+``` sh
 Enter text to encrypt: HELLO
 Enter number of rounds: 4
 Enter key: SECRET
 Ciphertext: 9f3a2c...
-🔓 Decryption
-sh
-Copy
-Edit
+```
+#🔓 Decryption
+``` sh
 Enter text to decrypt: 9f3a2c...
 Enter number of rounds: 4
 Enter key: SECRET
 Decrypted text: HELLO
-📂 File Structure
-nginx
-Copy
-Edit
+```
+#📂 File Structure
+```sh 
 Feistel Cipher/
 │── feistel_cipher.py   # Python script for encryption & decryption
 │── README.md           # This file
 sql
-Copy
-Edit
-
-✅ **Now you can copy it in ONE go and paste it directly into your README!** 🚀
-
+```
 
 
 
