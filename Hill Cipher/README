@@ -58,26 +58,24 @@ Enter the key matrix row-wise:
 Ciphertext: ZEBB
 ## 🚫 Error Handling (Invalid Matrix)
 `` sh
-Enter plaintext: TEST
-Enter the matrix size: 2
-Enter the key matrix row-wise:
+-Enter plaintext: TEST
+-Enter the matrix size: 2
+-Enter the key matrix row-wise:
 2 4
 6 8
-Invalid input: Key matrix is not invertible modulo 26. Choose a different matrix.
+-Invalid input: Key matrix is not invertible modulo 26. Choose a different matrix.
 ```
 📂 File Structure
-plaintext
-Copy
-Edit
+-plaintext
+`` sh
 Hill-Cipher/
 │── hill_cipher.py   # Python script for encryption
 │── README.md        # This file
+```
 📜 References
-Hill, Lester S. "Cryptography in an Algebraic Alphabet." The American Mathematical Monthly, 1929.
+- Hill, Lester S. "Cryptography in an Algebraic Alphabet." The American Mathematical Monthly, 1929.
 Wikipedia - Hill Cipher
-markdown
-Copy
-Edit
+
 
 ### ✅ **Fixes Applied**
 1. **Proper Sectioning** (Overview, Features, Setup, Running, Examples)
