@@ -58,3 +58,4 @@ python <cipher_script>.py
 - 🔢 **Hill Cipher**: A polygraphic substitution cipher using matrix multiplication for encryption and decryption. [Jump to Hill Cipher](Hill%20Cipher/)
 - 🔠 **MonoAlphabetic Cipher**: A substitution cipher where each letter in the plaintext is mapped to a unique letter in the ciphertext. [Jump to MonoAlphabetic Cipher](MonoAlphabetic/)
 - 🎯 **Vigenère Cipher**: A polyalphabetic cipher that uses a keyword to shift letters. [Jump to Vigenère Cipher](Vigenère%20cipher/)
+- 🔥 **Feistel Cipher**: A symmetric structure used in block ciphers. [Jump to Feistel Cipher](Feistel%20Cipher/)
