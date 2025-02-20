@@ -1,73 +1,58 @@
-# 🔐 Feistel Cipher
+# Information and Network Security Lab
 
-This project implements the **Feistel Cipher**, a symmetric structure widely used in block cipher designs. The Feistel network divides plaintext into two halves and applies multiple rounds of encryption using a round function and subkeys.
+This repository contains implementations of various ciphers and cryptographic algorithms as part of the **Information and Network Security Lab**. The projects are written in Python, showcasing different encryption and decryption techniques.
 
-## 📜 Overview
-The **Feistel Cipher** is the basis for many modern encryption algorithms like **DES**. It operates by splitting plaintext into **left (L) and right (R) halves** and applying a function `F` combined with subkeys.
+🔗 **GitHub Repository:** INS
 
-### 🔑 Encryption Process
-1. Divide the plaintext into `L` (left half) and `R` (right half).
-2. Apply the Feistel function `F` to `R`, then XOR with `L`.
-3. Swap halves.
-4. Repeat for multiple rounds.
+## 📋 Table of Contents
+- 🔧 Tech Stack
+- ✨ Features
+- ⚙️ Setup and Installation
+- 💻 How to Run
+  - 🏠 Running Locally
+  - 🌐 Running on GitHub Codespaces
+- 🔑 Ciphers Included
 
-### 🔓 Decryption Process
-- The decryption process is identical to encryption but with subkeys applied in reverse order.
+## 🔧 Tech Stack
+- **Programming Language:** Python
+- **Platform:** GitHub Codespaces compatible
 
-## 🛠️ Features
-- Implements **multiple rounds** for increased security.
-- Uses a **simple round function (F)** for demonstration.
-- Supports **encryption and decryption**.
+## ✨ Features
+This repository includes implementations of classical ciphers such as:
 
-## 🚀 Setup and Installation
-### 📌 Prerequisites
-Ensure you have **Python 3.8 or later** installed.
+- 🔐 **Playfair Cipher:** Encryption and decryption using a 5x5 matrix.
+- 🔄 **Caesar Cipher:** Shift-based substitution cipher.
+- 🔢 **Hill Cipher:** Matrix multiplication-based cipher.
+- 🔠 **MonoAlphabetic Cipher:** Substitution map-based cipher.
 
-### 📥 Clone the Repository
-```sh
-git clone https://github.com/YourUsername/INS.git
-cd "Feistel Cipher"
-```
+## ⚙️ Setup and Installation
+### 📜 Prerequisites
+Ensure you have the following installed:
+- **Python (3.8 or later)** for running Python-based ciphers.
+- **Git** for cloning the repository.
 
-##💻 How to Run 
-   Run the script using:
--sh
--Copy
--Edit
--python feistel_cipher.py
-
-The program will prompt for:
--Plaintext to encrypt
--Number of rounds
--Key for encryption
-
-##📝 Example Usage
-###🔐 Encryption
+### ⬇️ Clone the Repository
+Run the following commands to clone and set up the project on your local machine:
 sh
-Copy
-Edit
-Enter text to encrypt: HELLO
-Enter number of rounds: 4
-Enter key: SECRET
-Ciphertext: 9f3a2c...
-###🔓 Decryption
+gh repo clone Rishal/INS
+cd Cipher_Codes
+
+
+## 💻 How to Run
+### 🏠 Running Locally (Python Programs 🐍)
+Execute the program using:
 sh
-Copy
-Edit
-Enter text to decrypt: 9f3a2c...
-Enter number of rounds: 4
-Enter key: SECRET
-Decrypted text: HELLO
-##📂 File Structure
-nginx
-Copy
-Edit
-
-##Feistel Cipher/
-│── feistel_cipher.py   # Python script for encryption & decryption
-│── README.md           # This file
-sql
-Copy
-Edit
+python <cipher_script>.py
 
 
+### 🌐 Running on GitHub Codespaces
+1. Open the repository in GitHub and click on the **Code** button.
+2. Select **Create Codespace on Main**.
+3. Once the Codespace is ready, open the terminal and navigate to the desired cipher folder.
+4. Follow the **Running Locally** steps for Python programs.
+
+## 🔑 Ciphers Included
+- 🔐 **Playfair Cipher**: Encryption and decryption functionalities for a 5x5 matrix cipher. [Jump to Playfair Cipher](#)
+- 🔄 **Caesar Cipher**: Shift-based substitution cipher. [Jump to Caesar Cipher](#)
+- 🔢 **Hill Cipher**: Matrix multiplication-based cipher. [Jump to Hill Cipher](#)
+- 🔠 **MonoAlphabetic Cipher**: Substitution map-based cipher. [Jump to MonoAlphabetic Cipher](#)
