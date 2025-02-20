@@ -43,11 +43,11 @@ python hill_cipher.py
 
 The program will prompt for:
 
--Plaintext message
--Matrix size (n × n)
--Key matrix values (entered row-wise)
+- Plaintext message
+- Matrix size (n × n)
+- Key matrix values (entered row-wise)
 
-###📝 Example Usage
+## 📝 Example Usage
 🔐 Encryption
 
 - Enter plaintext: HELLO
@@ -66,7 +66,7 @@ The program will prompt for:
 6 8
 -Invalid input: Key matrix is not invertible modulo 26. Choose a different matrix.
 
-📂 File Structure
+## 📂 File Structure
 ``` sh
 -plaintext
 Hill-Cipher/
@@ -74,7 +74,7 @@ Hill-Cipher/
 │── README.md        # This file
 ```
 
-📜 References
+## 📜 References
 - Hill, Lester S. "Cryptography in an Algebraic Alphabet." The American Mathematical Monthly, 1929.
 Wikipedia - Hill Cipher
 
