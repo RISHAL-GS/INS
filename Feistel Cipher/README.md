@@ -22,7 +22,7 @@ The **Feistel Cipher** is the basis for many modern encryption algorithms like *
 
 ## 🚀 Setup and Installation
 ### 📌 Prerequisites
-Ensure you have **Python 3.8 or later** installed.
+- Ensure you have **Python 3.8 or later** installed.
 
 ### 📥 Clone the Repository
 ```sh
@@ -33,25 +33,25 @@ cd "Feistel Cipher"
 ##💻 How to Run
 Run the script using:
 
-sh
-Copy
-Edit
-python feistel_cipher.py  
+-sh
+-Copy
+-Edit
+-python feistel_cipher.py  
 
 #The program will prompt for:
 
-Plaintext to encrypt
-Number of rounds
-Key for encryption
-📝 Example Usage
-Encryption
-vbnet
-Copy
-Edit
-Enter text to encrypt: HELLO
-Enter number of rounds: 4
-Enter key: SECRET
-Ciphertext: 9f3a2c...
+-Plaintext to encrypt
+-Number of rounds
+Kwy for encryption
+-📝 Example Usage
+-Encryption
+-vbnet
+-Copy
+-Edit
+-Enter text to encrypt: HELLO
+-Enter number of rounds: 4
+-Enter key: SECRET
+-Ciphertext: 9f3a2c...
 
 ##Decryption
 vbnet
