@@ -27,20 +27,22 @@ Ensure you have **Python 3.8 or later** installed.
 ```sh
 git clone https://github.com/YourUsername/INS.git
 cd "Feistel Cipher"
-💻 How to Run
-Run the script using:
+```
 
-sh
-Copy
-Edit
-python feistel_cipher.py
+##💻 How to Run 
+   Run the script using:
+-sh
+-Copy
+-Edit
+-python feistel_cipher.py
+
 The program will prompt for:
+-Plaintext to encrypt
+-Number of rounds
+-Key for encryption
 
-Plaintext to encrypt
-Number of rounds
-Key for encryption
-📝 Example Usage
-🔐 Encryption
+##📝 Example Usage
+###🔐 Encryption
 sh
 Copy
 Edit
@@ -48,7 +50,7 @@ Enter text to encrypt: HELLO
 Enter number of rounds: 4
 Enter key: SECRET
 Ciphertext: 9f3a2c...
-🔓 Decryption
+###🔓 Decryption
 sh
 Copy
 Edit
@@ -56,15 +58,16 @@ Enter text to decrypt: 9f3a2c...
 Enter number of rounds: 4
 Enter key: SECRET
 Decrypted text: HELLO
-📂 File Structure
+##📂 File Structure
 nginx
 Copy
 Edit
-Feistel Cipher/
+
+##Feistel Cipher/
 │── feistel_cipher.py   # Python script for encryption & decryption
 │── README.md           # This file
 sql
 Copy
 Edit
 
-This is the full **README** content **in one block** with proper formatting. Now you can **copy it once** and paste it wherever 
+
