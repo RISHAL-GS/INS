@@ -53,6 +53,6 @@ python <cipher_script>.py
 
 ## 🔑 Ciphers Included
 - 🔐 **Playfair Cipher**: Encryption and decryption functionalities for a 5x5 matrix cipher. [Jump to Playfair Cipher](#)
-- 🔄 **Caesar Cipher**: Shift-based substitution cipher. [Jump to Caesar Cipher](#)
+- 🔄 **Caesar Cipher**: Shift-based substitution cipher. [Jump to Caesar Cipher](#caesar-cipher)
 - 🔢 **Hill Cipher**: Matrix multiplication-based cipher. [Jump to Hill Cipher](#)
 - 🔠 **MonoAlphabetic Cipher**: Substitution map-based cipher. [Jump to MonoAlphabetic Cipher](#)
