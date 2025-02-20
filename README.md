@@ -27,3 +27,17 @@ Ensure you have **Python 3.8 or later** installed.
 ```sh
 git clone https://github.com/YourUsername/INS.git
 cd "Feistel Cipher"
+```
+
+##💻 How to Run
+Run the script using:
+
+sh
+Copy
+Edit
+python feistel_cipher.py
+The program will prompt for:
+
+Plaintext to encrypt
+Number of rounds
+Key for encryption
