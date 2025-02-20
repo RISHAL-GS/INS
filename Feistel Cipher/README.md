@@ -1,4 +1,3 @@
-
 # 🔐 Feistel Cipher
 
 This project implements the **Feistel Cipher**, a symmetric structure widely used in block cipher designs. The Feistel network divides plaintext into two halves and applies multiple rounds of encryption using a round function and subkeys.
@@ -29,38 +28,35 @@ The **Feistel Cipher** is the basis for many modern encryption algorithms like *
 git clone https://github.com/YourUsername/INS.git
 cd "Feistel Cipher"
 ```
-
-##💻 How to Run
+💻 How to Run
 Run the script using:
 
--sh
--Copy
--Edit
--python feistel_cipher.py  
-
-#The program will prompt for:
-
--Plaintext to encrypt
--Number of rounds
-Kwy for encryption
--📝 Example Usage
--Encryption
--vbnet
--Copy
--Edit
--Enter text to encrypt: HELLO
--Enter number of rounds: 4
--Enter key: SECRET
--Ciphertext: 9f3a2c...
-
-##Decryption
-vbnet
+sh
 Copy
 Edit
--Enter text to decrypt: 9f3a2c...
--Enter number of rounds: 4
--Enter key: SECRET
--Decrypted text: HELLO
+python feistel_cipher.py
+The program will prompt for:
+
+Plaintext to encrypt
+Number of rounds
+Key for encryption
+📝 Example Usage
+Encryption
+sh
+Copy
+Edit
+Enter text to encrypt: HELLO
+Enter number of rounds: 4
+Enter key: SECRET
+Ciphertext: 9f3a2c...
+Decryption
+sh
+Copy
+Edit
+Enter text to decrypt: 9f3a2c...
+Enter number of rounds: 4
+Enter key: SECRET
+Decrypted text: HELLO
 📂 File Structure
 nginx
 Copy
@@ -68,3 +64,6 @@ Edit
 Feistel Cipher/
 │── feistel_cipher.py   # Python script for encryption & decryption
 │── README.md           # This file
+markdown
+Copy
+Edit
