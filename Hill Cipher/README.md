@@ -49,10 +49,9 @@ The program will prompt for:
 
 ## 📝 Example Usage
 🔐 Encryption
-
--Enter plaintext: HELLO
--Enter the matrix size: 2
--Enter the key matrix row-wise:
+- Enter plaintext: HELLO
+- Enter the matrix size: 2
+- Enter the key matrix row-wise:
 3 3
 2 5
 -Ciphertext: ZEBB  
