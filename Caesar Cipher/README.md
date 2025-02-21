@@ -41,7 +41,8 @@ Encryption
 - Enter text to encrypt: HELLO
 - Enter keyword: KEY
 - Ciphertext: RIJVS
-- Decryption
+  
+Decryption
 - vbnet
 ``` sh
 Enter text to decrypt: RIJVS
