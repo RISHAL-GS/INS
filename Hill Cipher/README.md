@@ -61,12 +61,12 @@ The program will prompt for:
 
 ## 🚫 Error Handling (Invalid Matrix)
 
--Enter plaintext: TEST
--Enter the matrix size: 2
--Enter the key matrix row-wise:
+- Enter plaintext: TEST
+- Enter the matrix size: 2
+- Enter the key matrix row-wise:
 2 4
 6 8
--Invalid input: Key matrix is not invertible modulo 26. Choose a different matrix.
+- Invalid input: Key matrix is not invertible modulo 26. Choose a different matrix.
 
 ## 📂 File Structure
 ``` sh
