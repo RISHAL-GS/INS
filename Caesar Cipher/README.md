@@ -32,10 +32,9 @@ cd "Vigenère Cipher"
 ### 💻 How to Run
 Run the script using:
 
-sh
-Copy
-Edit
+``` sh
 python vigenere_cipher.py
+```
 
 ## 📝 Example Usage
 Encryption
