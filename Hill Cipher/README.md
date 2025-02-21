@@ -34,8 +34,10 @@ Ensure you have the following installed:
 ### 📥 Clone the Repository
 ```sh
 git clone https://github.com/YourUsername/Hill-Cipher.git
-cd Hil💻 How to Run
-``` 
+```
+
+## Hil💻 How to Run
+
 Run the script using:
 ``` sh
 python hill_cipher.py
@@ -52,9 +54,10 @@ The program will prompt for:
 - Enter plaintext: HELLO
 - Enter the matrix size: 2
 - Enter the key matrix row-wise:
+  
 3 3
 2 5
--Ciphertext: ZEBB  
+- Ciphertext: ZEBB  
 
 ## 🚫 Error Handling (Invalid Matrix)
 
