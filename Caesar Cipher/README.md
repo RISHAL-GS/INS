@@ -47,16 +47,16 @@ Edit
 - Ciphertext: RIJVS
 - Decryption
 - vbnet
-Copy
-Edit
+``` sh
 Enter text to decrypt: RIJVS
 Enter keyword: KEY
 Decrypted text: HELLO
+```
 
 ## 📂 File Structure
-bash
-Copy
-Edit
-- Vigenère Cipher/
+``` bash
+
+- Vigenère Cipher
 - │── vigenere_cipher.py   # Python script for encryption & decryption
 - 1- ── README.md            # This file
+``` 
