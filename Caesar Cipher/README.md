@@ -38,9 +38,6 @@ python vigenere_cipher.py
 
 ## 📝 Example Usage
 Encryption
-vbnet
-Copy
-Edit
 - Enter text to encrypt: HELLO
 - Enter keyword: KEY
 - Ciphertext: RIJVS
