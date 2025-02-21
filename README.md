@@ -33,17 +33,18 @@ Ensure you have the following installed:
 
 ### ⬇️ Clone the Repository
 Run the following commands to clone and set up the project on your local machine:
-sh
+```sh
 gh repo clone Rishal/INS
 cd Cipher_Codes
+```
 
 
 ## 💻 How to Run
 ### 🏠 Running Locally (Python Programs 🐍)
 Execute the program using:
-sh
+```sh
 python <cipher_script>.py
-
+```
 
 ### 🌐 Running on GitHub Codespaces
 1. Open the repository in GitHub and click on the **Code** button.
