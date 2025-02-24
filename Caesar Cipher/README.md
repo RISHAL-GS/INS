@@ -1,59 +1,47 @@
-# 🔐 Vigenère Cipher
+# Caesar Cipher Encryption Script
 
-This project implements the **Vigenère Cipher**, a polyalphabetic substitution cipher that enhances security by using a keyword to shift letters.
+## Description
+This Python script implements a simple Caesar Cipher encryption algorithm. The Caesar Cipher is a basic encryption technique that shifts each letter in the plaintext by a fixed number of positions in the alphabet.
 
-## 📜 Overview
-The **Vigenère Cipher** is an improvement over the **Caesar Cipher** by using a **repeating keyword** to determine shifting values instead of a fixed shift.
+## How It Works
+1. The script takes user input for a text string and a shift value (integer).
+2. It then encrypts the text using the Caesar Cipher algorithm by shifting each letter by the given shift value.
+3. The encrypted text (ciphertext) is displayed as output.
+4. Non-alphabetical characters remain unchanged.
 
-### 🔑 **Encryption Formula:**
-Each letter **P** in the plaintext is shifted based on the corresponding letter **K** in the keyword:
-E = (P + K) % 26
+## Usage
+### Running the Script
+1. Run the script in a Python environment.
+2. Enter the text you want to encrypt when prompted.
+3. Enter a numeric shift value.
+4. The encrypted text (cipher) will be displayed.
 
-### 🔓 **Decryption Formula:**
-To decrypt, we reverse the shift:
-
-P = (E - K) % 26
-
-## 🛠️ Features
-- Encrypts and decrypts messages using a **keyword-based shifting technique**.
-- Supports both **uppercase and lowercase** letters.
-- Preserves spaces, punctuation, and numbers.
-
-## 🚀 Setup and Installation
-### 📌 Prerequisites
-Ensure you have **Python 3.8 or later** installed.
-
-### 📥 Clone the Repository
-```sh
-git clone https://github.com/YourUsername/INS.git
-cd "Vigenère Cipher"
+### Example
+#### Input:
+```
+Enter text to encrypt: Hello, World!
+Enter shift value: 3
+```
+#### Output:
+```
+Cipher: Khoor, Zruog!
 ```
 
-### 💻 How to Run
-Run the script using:
+## Code Explanation
+- The `encrypt` function processes each character in the input string:
+  - If the character is an uppercase letter (A-Z), it is shifted within the uppercase range.
+  - If the character is a lowercase letter (a-z), it is shifted within the lowercase range.
+  - Any other characters (such as punctuation and spaces) remain unchanged.
+- The shift value wraps around the alphabet (e.g., 'Z' shifted by 1 becomes 'A').
 
-``` sh
-python vigenere_cipher.py
-```
+## Requirements
+- Python 3.x
+- No additional libraries are required.
 
-## 📝 Example Usage
-Encryption
-- Enter text to encrypt: HELLO
-- Enter keyword: KEY
-- Ciphertext: RIJVS
-  
-Decryption
-- vbnet
-``` sh
-Enter text to decrypt: RIJVS
-Enter keyword: KEY
-Decrypted text: HELLO
-```
+## Limitations
+- This script only supports encryption, not decryption.
+- It does not handle non-English alphabets or special character encodings.
 
-## 📂 File Structure
-``` bash
+## License
+This script is open-source and free to use for educational purposes.
 
-- Vigenère Cipher
-- │── vigenere_cipher.py   # Python script for encryption & decryption
-- 1- ── README.md            # This file
-``` 
